@@ -6,13 +6,14 @@ namespace MauiDemoDataBinding
 {
     public partial class MainPage : ContentPage, INotifyPropertyChanged
     {
-       
+
 
         public MainPage()
         {
             InitializeComponent();
 
         }
+
 
 
 
@@ -59,8 +60,8 @@ namespace MauiDemoDataBinding
         //    lblPreco.SetBinding(Label.TextProperty, estoqueBinding);
         //}
 
-
     }
+    
 }
 
 

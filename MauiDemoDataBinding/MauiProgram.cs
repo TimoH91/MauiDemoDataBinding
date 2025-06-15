@@ -13,6 +13,9 @@ namespace MauiDemoDataBinding
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+                    fonts.AddFont("Android_Hollow.ttf", "MinhaFonte");
+                    fonts.AddFont("fontello.ttf", "IconsFont");
+
                 });
 
 #if DEBUG

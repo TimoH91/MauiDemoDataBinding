@@ -69,12 +69,20 @@
 	  <MauiXaml Update="Pages\JogoDeForca.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Pages\MauiResorces.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Pages\NotifyBinding.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Pages\SliderBinding.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Remove="Resources\Fonts\Android_Hollow.ttf" />
+		<None Remove="Resources\Fonts\AlexBrush_Regular.ttf" />
 	</ItemGroup>
 
 </Project>
