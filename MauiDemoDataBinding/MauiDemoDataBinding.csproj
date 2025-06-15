@@ -66,6 +66,9 @@
 	  <MauiXaml Update="Pages\BindingModes.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Pages\JogoDeForca.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Pages\NotifyBinding.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

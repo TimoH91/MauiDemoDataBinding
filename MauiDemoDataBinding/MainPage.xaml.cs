@@ -1,15 +1,21 @@
-﻿using MauiDemoDataBinding.Models;
+﻿using System.ComponentModel;
+using System.Diagnostics;
+using MauiDemoDataBinding.Models;
 
 namespace MauiDemoDataBinding
 {
-    public partial class MainPage : ContentPage
+    public partial class MainPage : ContentPage, INotifyPropertyChanged
     {
-        int count = 0;
+       
 
         public MainPage()
         {
             InitializeComponent();
+
         }
+
+
+
 
         //private void OnCounterClicked(object sender, EventArgs e)
         //{
@@ -52,6 +58,9 @@ namespace MauiDemoDataBinding
 
         //    lblPreco.SetBinding(Label.TextProperty, estoqueBinding);
         //}
-    }
 
+
+    }
 }
+
+
